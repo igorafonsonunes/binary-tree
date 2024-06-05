@@ -112,7 +112,7 @@ int main() {
     printTree(tree);
     printf("\nÁRVORE IMPRESSA EM ORDEM...\n");
 
-    printf("REALIZANDO A BUSCA...\n");
+    printf("REALIZANDO A BUSCA....\n");
 
     Tree* found = searchTree(tree, 5);
     if(found != NULL) {
