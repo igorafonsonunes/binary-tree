@@ -96,7 +96,7 @@ Tree * deleteDataInTree(Tree * tree, int value) {
 int main() {
     Tree* tree = createTree();
 
-    printf("INSERINDO DADOS NA ÁRVORE...\n");
+    printf("INSERINDO DADOS NA ÁRVORE......\n");
     insertTree(&tree, 7);
     insertTree(&tree, 2);
     insertTree(&tree, 1);
@@ -110,22 +110,22 @@ int main() {
     insertTree(&tree, 11);
 
     printTree(tree);
-    printf("\nÁRVORE IMPRESSA EM ORDEM...\n");
+    printf("\nÁRVORE IMPRESSA EM ORDEM......\n");
 
-    printf("REALIZANDO A BUSCA....\n");
+    printf("REALIZANDO A BUSCA......\n");
 
     Tree* found = searchTree(tree, 5);
     if(found != NULL) {
         printf("VALOR ENCONTRADO: %d\n", found->value);
     } else {
-        printf("NENHUM VALOR ENCONTRADO...\n");
+        printf("NENHUM VALOR ENCONTRADO......\n");
     }
 
-    printf("REALIZANDO A REMOCAO...\n");
+    printf("REALIZANDO A REMOCAO......\n");
 
     tree = deleteDataInTree(tree, 7);
     printTree(tree);
-    printf("\nÁRVORE IMPRESSA EM ORDEM...\n");
+    printf("\nÁRVORE IMPRESSA EM ORDEM......\n");
 
     free(tree); 
 
