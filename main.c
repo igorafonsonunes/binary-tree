@@ -96,7 +96,7 @@ Tree * deleteDataInTree(Tree * tree, int value) {
 int main() {
     Tree* tree = createTree();
 
-    printf("INSERINDO DADOS NA ÁRVORE......\n");
+    printf("INSERINDO DADOS NA ÁRVORE........\n");
     insertTree(&tree, 7);
     insertTree(&tree, 2);
     insertTree(&tree, 1);
