@@ -104,7 +104,7 @@ int main() {
     insertTree(&tree, 4);
     insertTree(&tree, 5);
     insertTree(&tree, 6);
-    insertTree(&tree, 8);
+    insertTree(&tree, 16);
     insertTree(&tree, 9);
     insertTree(&tree, 10);
     insertTree(&tree, 11);
